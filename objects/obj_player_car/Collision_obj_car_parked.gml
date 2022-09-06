@@ -8,3 +8,10 @@ speed = 0;
 /// @DnDHash : 76780376
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 23ECDAD9
+/// @DnDArgument : "soundid" "sd_crash"
+/// @DnDSaveInfo : "soundid" "sd_crash"
+audio_play_sound(sd_crash, 0, 0);

@@ -1,16 +1,24 @@
 {
   "resources": [
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"order":2,},
+    {"id":{"name":"obj_car_crashed","path":"objects/obj_car_crashed/obj_car_crashed.yy",},"order":3,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_car_up","path":"sprites/spr_car_up/spr_car_up.yy",},"order":3,},
     {"id":{"name":"obj_car_parked","path":"objects/obj_car_parked/obj_car_parked.yy",},"order":1,},
+    {"id":{"name":"spr_winscreen","path":"sprites/spr_winscreen/spr_winscreen.yy",},"order":8,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":5,},
     {"id":{"name":"spr_car_crash","path":"sprites/spr_car_crash/spr_car_crash.yy",},"order":4,},
+    {"id":{"name":"sd_win","path":"sounds/sd_win/sd_win.yy",},"order":3,},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},"order":7,},
+    {"id":{"name":"sd_crash","path":"sounds/sd_crash/sd_crash.yy",},"order":0,},
+    {"id":{"name":"sd_honk","path":"sounds/sd_honk/sd_honk.yy",},"order":1,},
     {"id":{"name":"spr_car_park","path":"sprites/spr_car_park/spr_car_park.yy",},"order":6,},
     {"id":{"name":"spr_car_left","path":"sprites/spr_car_left/spr_car_left.yy",},"order":2,},
     {"id":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},"order":0,},
     {"id":{"name":"spr_car_right","path":"sprites/spr_car_right/spr_car_right.yy",},"order":0,},
+    {"id":{"name":"sd_music","path":"sounds/sd_music/sd_music.yy",},"order":2,},
     {"id":{"name":"spr_car_down","path":"sprites/spr_car_down/spr_car_down.yy",},"order":1,},
+    {"id":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -18,7 +26,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 1,
+  "defaultScriptType": 2,
   "isEcma": false,
   "configs": {
     "name": "Default",
@@ -26,6 +34,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

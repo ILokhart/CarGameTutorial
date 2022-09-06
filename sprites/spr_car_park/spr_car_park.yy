@@ -12,7 +12,7 @@
   "bbox_bottom": 66,
   "origin": 0,
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 2,
   "type": 0,
   "swfPrecision": 2.525,
   "width": 107,
